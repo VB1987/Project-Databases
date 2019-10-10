@@ -1,0 +1,1 @@
+Swift-mailer isnt uploaded to repository because its too big
