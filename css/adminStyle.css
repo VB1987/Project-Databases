@@ -1,0 +1,178 @@
+body {
+	background-color: green;
+	font-size: 16px;
+	color: black;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+}
+
+#container {
+	height: 1200px;
+	width: 1024px;
+	margin: auto;
+	margin-top: -20px;
+}
+
+header {
+	height: 100px;
+	width: 1014px;
+	background-color: lightgreen;
+	background-repeat: no-repeat;
+	padding-left: 10px;
+}
+
+header h1,h2 {
+	text-align: center;
+}
+
+header figure {
+	float: right;
+	margin-top: -45px;
+}
+
+content {
+	height: 900px;
+	width: 1004px;
+	background-color: lightgreen;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+.login label {
+	display: block; 
+	margin: 3px 0;
+}
+
+.login label > span:first-child {
+	display: inline-block;
+	width: 120px;
+	text-align: right;
+}
+
+.login label > span:first-child:after {
+	content: ':';
+}
+
+.login input:valid + span {
+	display: none;
+}
+
+menu {
+	background-color: #333;
+	margin: 0;
+}
+menu ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+menu li {
+  float: left;
+}
+
+menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+menu li a:hover {
+  background-color: #111;
+}
+
+footer {
+	height: 25px;
+	width: 1014px;
+	background-color: #333;
+	padding-left: 10px;
+	margin-top: -16px; 
+	line-height: 25px;
+}
+
+footer p {
+	text-align: center;
+	text-shadow: 3px 2px darkgreen;
+}
+
+.settings {
+	width: 500px;
+	margin: auto;
+}
+
+.settings fieldset {
+	background-color: white;
+}
+
+.settings legend {
+	border: solid 1px black;
+	background-color: #f0f0f0;
+	margin-top: 5px;
+}
+
+.settings input {
+	width: 464px;
+}
+
+.settings input:focus {
+	background-color: lightgray;
+}
+
+.settings label{
+	display: block;
+	font-weight: bold;
+}
+
+.settings #reg {
+	width: 469px;
+	height: 30px;
+	margin-top: 15px;
+}
+
+.settings #submit{
+	width: 499px;
+	height: 30px;
+	margin-top: 5px;
+}
+
+.list {
+	background-color: white;
+	position: relative;
+	margin: auto;
+	margin-top: 10px;
+	width: 500px;
+	height: 185px;
+	overflow: auto;
+}
+
+.buttons {
+	position: relative;
+}
+
+.buttons li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+}
+
+.buttons li, .buttons a {
+	height: 25px;
+	display: block;
+}
+
+.buttonDel{
+	width: 25px;
+	background: url('../admin/sources/sprite.png') 0 0;
+	right: 0px;
+}
+
+.buttonUp{
+	width: 25px;
+	background: url('../admin/sources/sprite.png') 0px -25px;
+	right: 25px;
+}
